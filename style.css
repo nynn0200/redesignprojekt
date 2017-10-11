@@ -1,28 +1,57 @@
 /* **** Menu **** */
 
+.logo_top {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.nav_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.linie {
+    width: 30%;
+    border-top: solid 2px #8a8a8a;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 960px) {
+    .linie {
+        width: 0;
+    border-top: solid 0px white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+}
+
+
+
 header {
-    position: fixed;
-    /* sætter menuen fast */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
     width: 100vw;
     padding: 1em;
 }
 
 header nav {
-    font-family: 'Russo One', sans-serif;
-    text-align: right;
-    margin: 0 5vw 0 0;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 header nav a {
     text-decoration: none;
-    color: #fceee1;
+    color: #8a8a8a;
     padding-left: 4px;
+    padding-right: 4px;
     display: block;
 }
 
 header nav a:hover {
-    color: #ff1212;
+    color: #710036;
 }
 
 @media screen and (min-width: 675px) {
