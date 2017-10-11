@@ -132,10 +132,24 @@ header nav a:hover {
 
 }
 
-#om .column_img {
-    flex-basis: 200px;
+#om .om_logo {
+    width: 90px;
 }
 
+@media screen and (max-width: 1200px) {
+    #om .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #om .om_logo {
+        width: 120px;
+    }
+}
 
 
 /** om os slut **/
