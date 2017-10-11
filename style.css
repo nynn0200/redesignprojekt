@@ -1,0 +1,36 @@
+h2 {
+    font-family: 'Muli', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+.section_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.column {
+    flex-basis: 300px;
+}
+
+.column_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.fakta_tekst {
+    flex-basis: 100px;
+}
+
+
+
+.column_right {
+    flex-basis: 200px;
+}
+
