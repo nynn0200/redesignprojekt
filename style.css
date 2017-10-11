@@ -107,6 +107,39 @@ header nav a:hover {
 
 /** youtube video slut **/
 
+/** om os **/
+
+#om h2 {
+    display: inline;
+    padding: 10px;
+
+}
+
+.om_logo {
+    width: 80px;
+}
+
+#om {
+    margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 40vw;
+
+}
+
+#om .column_img {
+    flex-basis: 200px;
+}
+
+
+
+/** om os slut **/
+
 h2 {
     font-family: 'Muli', sans-serif;
     color: #710036
