@@ -207,7 +207,7 @@ header nav a:hover {
 }
 
 @media screen and (max-width: 1200px) {
-    #om .container {
+    #kurser .container {
         display: flex;
         justify-content: left;
         flex-wrap: wrap;
