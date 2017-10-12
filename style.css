@@ -1,6 +1,13 @@
-img {
+/* **** Billeder **** */
+
+.om_img img {
     width: 40vw;
     margin: 0px 10px 10px 40px;
+}
+
+.kurser_img img {
+    width: 40vw;
+    margin: 0px 40px 10px 10px;
 }
 
 body {
