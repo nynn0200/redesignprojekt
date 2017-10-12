@@ -139,7 +139,7 @@ header nav a:hover {
 @media screen and (max-width: 1200px) {
     #om .container {
         display: flex;
-        justify-content: center;
+        justify-content: left;
         flex-wrap: wrap;
         align-items: center;
         width: 100%;
