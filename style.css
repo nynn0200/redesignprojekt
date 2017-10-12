@@ -107,7 +107,6 @@ header nav a:hover {
 
 /* **** Menu slut **** */
 
-
 /** youtube video **/
 
 #splash {
@@ -132,7 +131,6 @@ header nav a:hover {
 
 
 /** youtube video slut **/
-
 
 /** om os **/
 
@@ -177,7 +175,6 @@ header nav a:hover {
 
 
 /** om os slut **/
-
 
 /* **** Supervision og kurser **** */
 
@@ -284,4 +281,76 @@ p {
 
 #priser_vilkår h3 {
     margin: 50px 0px 0px;
+}
+
+
+/** splash **/
+
+#splash {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+/*mobil potrait*/
+
+#splash {
+    background-image: url(images/splash/mobil_potrait.png);
+    height: 167vw;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*mobil_landscape*/
+
+@media screen and (max-width: 627px) and (min-width:376px) and (orientation:landscape) {
+    #splash {
+        background-image: url(images/splash/mobil.png);
+        height: 56vw;
+    }
+}
+
+
+/*tablet-landscape*/
+
+@media screen and (min-width: 628px) and (max-width: 1024px) and (orientation:landscape) {
+    #splash {
+        height: 75vw;
+        background-image: url(images/splash/tablet.png);
+    }
+}
+
+
+/*tablet potrait*/
+
+@media screen and (min-width: 376px) {
+    #splash {
+        background-image: url(images/splash/tablet_landscape.png);
+        height: 133vw;
+        width: 100%;
+    }
+}
+
+
+/*desktop*/
+
+@media screen and (min-width: 1025px) and (orientation:landscape) {
+    #splash {
+        background-image: url(images/splash/web_stor.png);
+        height: 56vw;
+    }
+}
+
+
+/*desktop_retina*/
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1025px),
+screen and (min-resolution: 192dpi) and (min-width: 1025px) {
+    #splash {
+        background-image: url(images/splash/retina.png);
+        height: 56vw;
+    }
 }
