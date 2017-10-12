@@ -213,6 +213,18 @@ p {
 }
 
 
+/* **** Faktaboks **** */
+
+.column_left {
+    background-color: #8a8a8a;
+    color: #710036;
+}
+
+.column_left h2 {
+    color: #710036;
+}
+
+
 /* **** Priser og vilkår **** */
 
 #priser_vilkår .tekst {
