@@ -69,7 +69,7 @@ body {
     margin-right: 10px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 970px) {
     .linie {
         width: 0;
         border-top: solid 0px white;
@@ -321,6 +321,7 @@ p {
         height: 75vw;
         background-image: url(images/splash/tablet.png);
     }
+
 }
 
 
@@ -337,7 +338,7 @@ p {
 
 /*desktop*/
 
-@media screen and (min-width: 1025px) and (orientation:landscape) {
+@media screen and (min-width: 700px) and (orientation:landscape) {
     #splash {
         background-image: url(images/splash/web_stor.png);
         height: 56vw;
@@ -352,5 +353,54 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
     #splash {
         background-image: url(images/splash/retina.png);
         height: 56vw;
+    }
+}
+
+
+
+.text_overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10vw;
+    margin: 0;
+    margin-top: 350px;
+    width: 100%;
+
+}
+
+.bottom_text {
+    display: flex;
+    margin-top: 0;
+    margin-left: 50px;
+    font-family: 'Muli';
+    font-weight: 700;
+    margin: 0;
+}
+
+.skaber {
+    font-family: 'Muli';
+    color: white;
+    margin: 0;
+}
+
+.end {
+    margin-left: 5px;
+    color: white;
+    margin: 0;
+}
+
+.sammen {
+     font-weight: 700;
+    color: #710036;
+    margin: 0;
+    margin-left: 70px;
+}
+
+@media screen and (min-width: 770px)
+{
+
+    .text_overlay {
+        font-size: 10px;
     }
 }
