@@ -63,7 +63,7 @@ body {
 }
 
 .linie {
-    width: 30%;
+    width: 20%;
     border-top: solid 2px #8a8a8a;
     margin-top: 20px;
     margin-left: 10px;
@@ -242,14 +242,34 @@ header nav a:hover {
 
 .container {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
-    width: 40vw;
 }
 
 #kurser .kurser_logo {
     width: 90px;
+}
+
+#kurser .column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#kurser .tilbud {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 20px;
+}
+
+#kurser .vejledning {
+    flex-grow: 2;
+    flex-basis: 400px;
+    margin: 20px;
+}
+
+#kurser .section_wrapper {
+    width: 100%;
+    flex-direction: column;
+    line-height: 30px;
 }
 
 @media screen and (max-width: 1200px) {
