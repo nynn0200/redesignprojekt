@@ -129,7 +129,10 @@ header nav a:hover {
     padding-bottom: 56.25%;
 }
 
-
+.youtube_flex {
+    width: 60vw;
+    align-self: center;
+}
 /** youtube video slut **/
 
 /** om os **/
@@ -155,8 +158,39 @@ header nav a:hover {
     width: 40vw;
 }
 
+#om .section_wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 30px;
+}
+
+#om .column_wide {
+    flex-grow: 2;
+    flex-basis: 350px;
+    margin: 20px;
+
+}
+
+#om .column_narrow {
+    flex-grow: 1;
+    flex-basis: 200px;
+    margin: 20px;
+}
+
+.column_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
 #om .om_logo {
     width: 90px;
+}
+
+#om .container {
+    justify-content: flex-start;
+    margin-left: 40px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -167,6 +201,7 @@ header nav a:hover {
         align-items: center;
         width: 100%;
         flex-direction: column;
+        margin-left: 0;
     }
     #om .om_logo {
         width: 120px;
