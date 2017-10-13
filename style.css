@@ -252,24 +252,27 @@ header nav a:hover {
 #kurser .column {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #kurser .tilbud {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin: 20px;
+    flex-grow: 2;
+    flex-basis: 200px;
+    margin: 40px;
 }
 
 #kurser .vejledning {
-    flex-grow: 2;
-    flex-basis: 400px;
-    margin: 20px;
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 40px;
+    margin-left: 40px;
 }
 
 #kurser .section_wrapper {
     width: 100%;
     flex-direction: column;
     line-height: 30px;
+    display: flex;
 }
 
 @media screen and (max-width: 1200px) {
@@ -304,8 +307,8 @@ p {
     justify-content: center;
 }
 
-.column {
-    flex-basis: 300px;
+#kurser .column {
+    position: relative;
 }
 
 .column_content {
