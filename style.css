@@ -108,6 +108,7 @@ header nav a:hover {
 
 /* **** Menu slut **** */
 
+
 /** youtube video **/
 
 #splash {
@@ -134,7 +135,10 @@ header nav a:hover {
     width: 60vw;
     align-self: center;
 }
+
+
 /** youtube video slut **/
+
 
 /** om os **/
 
@@ -179,7 +183,6 @@ header nav a:hover {
     flex-grow: 2;
     flex-basis: 350px;
     margin: 20px;
-
 }
 
 #om .column_narrow {
@@ -220,6 +223,7 @@ header nav a:hover {
 
 
 /** om os slut **/
+
 
 /* **** Supervision og kurser **** */
 
@@ -300,22 +304,6 @@ p {
 }
 
 
-/* **** Faktaboks **** */
-
-.column_right {
-    background-color: #8a8a8a;
-}
-
-.column_left {
-    background-color: #8a8a8a;
-    color: #710036;
-}
-
-.column_left h2 {
-    color: #710036;
-}
-
-
 /* **** Priser og vilkår **** */
 
 #priser_vilkår .tekst {
@@ -341,6 +329,7 @@ p {
     display: flex;
     align-items: center;
 }
+
 
 /*mobil potrait*/
 
@@ -370,7 +359,6 @@ p {
         height: 75vw;
         background-image: url(images/splash/tablet.png);
     }
-
 }
 
 
@@ -392,7 +380,6 @@ p {
         background-image: url(images/splash/web_stor.png);
         height: 56vw;
     }
-
     .text_overlay {
         margin-top: 200px;
     }
@@ -409,8 +396,6 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
     }
 }
 
-
-
 .text_overlay {
     display: flex;
     flex-direction: column;
@@ -419,7 +404,6 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
     margin: 0;
     margin-top: 350px;
     width: 100%;
-
 }
 
 .bottom_text {
@@ -444,15 +428,13 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 }
 
 .sammen {
-     font-weight: 700;
+    font-weight: 700;
     color: #710036;
     margin: 0;
     margin-left: 70px;
 }
 
-@media screen and (min-width: 770px)
-{
-
+@media screen and (min-width: 770px) {
     .text_overlay {
         font-size: 70px;
         align-items: center;
@@ -460,4 +442,19 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
         width: 100%;
         margin-top: 200px;
     }
+}
+
+
+/* **** Footer **** */
+
+#kontakt_fakta .section_wrapper {
+    background-color: #710036;
+    color: #8a8a8a;
+}
+
+#kontakt_fakta h2 {
+    color: #8a8a8a;
+}
+
+
 }
