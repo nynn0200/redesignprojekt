@@ -151,6 +151,15 @@ header nav a:hover {
     margin-top: 40px;
 }
 
+#om a {
+    text-decoration: none;
+    color: black;
+}
+
+#om a:hover {
+    color: #710036;
+}
+
 .container {
     display: flex;
     justify-content: center;
