@@ -60,6 +60,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .linie {
@@ -108,7 +109,6 @@ header nav a:hover {
 
 /* **** Menu slut **** */
 
-
 /** youtube video **/
 
 #splash {
@@ -139,7 +139,6 @@ header nav a:hover {
 
 /** youtube video slut **/
 
-
 /** om os **/
 
 #om h2 {
@@ -168,7 +167,6 @@ header nav a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
     width: 40vw;
 }
 
@@ -224,7 +222,6 @@ header nav a:hover {
 
 /** om os slut **/
 
-
 /* **** Supervision og kurser **** */
 
 #kurser h2 {
@@ -240,14 +237,39 @@ header nav a:hover {
     margin-top: 40px;
 }
 
-.container {
+
+
+#kurser .container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    width: 40vw;
 }
 
 #kurser .kurser_logo {
     width: 90px;
 }
+
+#kurser .container {
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    #kurser .container {
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    #kurser .kurser_logo {
+        width: 120px;
+    }
+}
+
 
 #kurser .column {
     display: flex;
@@ -275,18 +297,12 @@ header nav a:hover {
     display: flex;
 }
 
-@media screen and (max-width: 1200px) {
-    #kurser .container {
-        display: flex;
-        justify-content: left;
-        flex-wrap: wrap;
-        align-items: center;
-        width: 100%;
-        flex-direction: column;
-    }
-    #kurser .kurser_logo {
-        width: 120px;
-    }
+
+
+.kurser_img_con {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 
 
