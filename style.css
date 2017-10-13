@@ -456,5 +456,31 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
     color: #8a8a8a;
 }
 
+#kontakt_fakta img {
+    width: 5vw;
+    margin: 10px;
+    margin-left: 40px;
+}
 
+#kontakt_fakta .section_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fakta {
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    #kontakt_fakta .section_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    #kontakt_fakta img {
+        width: 15vw
+    }
 }
